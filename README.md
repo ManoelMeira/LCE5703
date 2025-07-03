@@ -5,10 +5,10 @@ ______
 
 **eggtransportfin.csv**
 
-Esse arquivo é um conjunto de dados produzido pelo pesquisador [David Deruttyer](https://orcid.org/0000-0001-8565-2240) um pesquisador da Inagro (Bélgica).
-A planilha possui dados de temperatura (temp | ºC), umidade relativa (RH | %), tempo de transporte (transport | dias), número de ovos (eggs | unidades), número de larvas (larvae | unidades), peso de larvas por peso de ovos (larvaepergram | mg), e taxa de eclosão (hatchrate).
+Esse arquivo é um conjunto de dados produzido pelo pesquisador [David Deruttyer](https://orcid.org/0000-0001-8565-2240), um pesquisador do instituto de pesquisa Inagro (Bélgica).
+A planilha possui dados de temperatura (temp | ºC), umidade relativa (RH | %), tempo de transporte (transport | dias), número de ovos (eggs | unidades), número de larvas (larvae | unidades), peso de larvas por peso de ovos (larvaepergram | mg), e taxa de eclosão (hatchrate). As temperaturas indicadas como 10,01 e 20,01 ºC no arquivo original foram agrupados às temperaturas 10 e 20 ºC, respectivamente.
 
-[Tratamento de dados](https://posit.cloud/content/10568256)
+Tratamento dos dados no R disponíveis [aqui](https://posit.cloud/content/10568256)
 
 ______
 
