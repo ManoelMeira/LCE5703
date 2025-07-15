@@ -34,5 +34,7 @@ ______
 ## Informações adicionais
 
 Tratamento dos dados no R disponíveis [aqui](https://posit.cloud/content/10568256).
+
 Autor: Manoel M. C. Meira - [ORCID](https://orcid.org/0000-0002-6043-6370).
+
 Contatos: manoelcmeira@gmail.com | manoelmeira@usp.br
