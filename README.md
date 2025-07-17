@@ -36,6 +36,8 @@ Número de colunas: 5, Número de Linhas: 61
 
 "Season" é a estação do ano do teste, "Replicate" refere-se à replicata do ensaio, "Climate	SILV_i" é a massa inicial (g) de *S. compressa* e "SILV_f" é a massa final (g) de *S. compressa*.
 
+O conjunto de dados completo pode ser acessado [aqui](https://doi.org/10.5061/dryad.05qfttf8b).
+
 
 ______
 
