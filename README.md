@@ -28,6 +28,17 @@ O conjunto de dados completo pode ser acessado [aqui](https://doi.org/10.25338/B
 
 ______
 
+**mesocosm_silvetia_weights.csv**
+
+Bases de dados sobre o impacto na biomassa da alga *Silvetia compressa* a diferentes condições de temperatura e pCO<sub>2</sub> que refletem cenários da emissão de gases de efeito estufa [RCP 2.6 (baixa) e RCP 4.5 (moderada)].
+
+Número de colunas: 5, Número de Linhas: 61
+
+"Season" é a estação do ano do teste, "Replicate" refere-se à replicata do ensaio, "Climate	SILV_i" é a massa inicial (g) de *S. compressa* e "SILV_f" é a massa final (g) de *S. compressa*.
+
+
+______
+
 ## Informações adicionais
 
 Tratamento dos dados no R disponíveis [aqui](https://posit.cloud/content/10568256).
