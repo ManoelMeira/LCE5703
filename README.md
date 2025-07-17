@@ -28,13 +28,21 @@ O conjunto de dados completo pode ser acessado [aqui](https://doi.org/10.25338/B
 
 ______
 
-**mesocosm_silvetia_weights.csv**
+**mesocosm_understory.csv**
 
-Bases de dados sobre o impacto na biomassa da alga *Silvetia compressa* a diferentes condições de temperatura e pCO<sub>2</sub> que refletem cenários da emissão de gases de efeito estufa [RCP 2.6 (baixa) e RCP 4.5 (moderada)].
+Bases de dados sobre medições da biomassa do sub-bosque por gênero de alga realizadas no início e no final de cada ensaio em mesocosmo. Os seguintes códigos são usados para os gêneros de sub-bosque incluídos nos mesocosmos:
+
+- CENT: *Centroceras spp.*
+
+- CHON: *Chondracanthus spp.*
+
+- CORA: *Corallina spp.*
+
+- LAUR: *Laurencia spp.*
 
 Número de colunas: 5, Número de Linhas: 61
 
-"Season" é a estação do ano do teste, "Replicate" refere-se à replicata do ensaio, "Climate	SILV_i" é a massa inicial (g) de *S. compressa* e "SILV_f" é a massa final (g) de *S. compressa*.
+A biomassa do sub-bosque (com aproximação de 0,01 g) foi registrada usando uma balança digital e posteriormente dividida em biomassa branqueada (coluna GENERA_b) e não branqueada (coluna GENERA_ub). A coluna GENERA_f representa a biomassa total (branqueada + não branqueada) para os respectivos gêneros. As colunas marcadas com +1 tiveram seus respectivos valores aumentados por uma variável dummy de Bray-Curtis igual a 1. A coluna GENERA_delt indica a diferença entre a biomassa final não branqueada e a biomassa inicial. A coluna GENERA_%loss representa a proporção de GENERA_delt em relação à biomassa inicial (GENERA_i). A coluna GENERA_%f é calculada como 1 - GENERA_%loss e representa a proporção da biomassa restante em relação à biomassa inicial.
 
 O conjunto de dados completo pode ser acessado [aqui](https://doi.org/10.5061/dryad.05qfttf8b).
 
