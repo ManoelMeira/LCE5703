@@ -50,6 +50,19 @@ O conjunto de dados completo pode ser acessado [aqui](https://doi.org/10.5061/dr
 
 ______
 
+**altura_de_plantas_com_hidroretentor.csv**
+
+Número de colunas: 5, Número de Linhas: 71
+
+Base de dados do efeito da aplicação de diferentes concentração de um hidroretentor (Polyter) no crescimento da cultura florífera crisântemo.
+
+"dose" refere-se à dose de hidroretentor aplicada por vaso (g/vaso), "reposicao_hidrica" é a reposição hídrica adotada, "data" é a data de verificação da altura, "dias" é a quantidade de dias corridos desde a primeira verificação de altura, e "altura" é a altura (cm) das plantas.
+
+O conjunto de dados completo pode ser acessado [aqui](https://repositorio.ufu.br/bitstream/123456789/26157/7/UsoPol%c3%admeroHidroretentor.pdf).
+
+______
+
+
 ## Informações adicionais
 
 Tratamento dos dados no R disponíveis [aqui](https://posit.cloud/content/10568256).
