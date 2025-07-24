@@ -28,25 +28,15 @@ O conjunto de dados completo pode ser acessado [aqui](https://doi.org/10.25338/B
 
 ______
 
-**mesocosm_understory.csv**
+**sp_responses.csv**
 
-Número de colunas: 44, Número de Linhas: 121
+Número de colunas: 11, Número de Linhas: 30
 
-Bases de dados sobre medições da biomassa do sub-bosque por gênero de alga realizadas no início e no final de cada ensaio em mesocosmo. Os seguintes códigos são usados para os gêneros de sub-bosque incluídos nos mesocosmos:
+Bases de dados sobre efeitos da diversidade nas respostas de crescimento em nível de espécie à aplicações fungicidas e inceticidas.
 
-- CENT: *Centroceras spp.*
+"site" é o sítio experimental (A ou B), "sp" é a espécie arbórea, taxa de variação do crescimento da área basal (2014–2016) em relação a log₂(riqueza de espécies), nas subparcelas: de controle (slopeC.BA), tratadas com fungicida (slopeF.BA), tratadas com inseticida (slopeI.BA). "slopeFC.BA" é a diferença entre slopeF.BA e slopeC.BA. "slopeIC.BA" é a diferença entre slopeI.BA e slopeC.BA. "effmono.F.deltaBA" é o efeito da aplicação de fungicida no crescimento da área basal em monocultivo, "effmono.I.deltaBA" é efeito da aplicação de inseticida no crescimento da área basal em monocultivo, "Fdamage" é o dano foliar por fungos (% da área foliar total) na parcela central de controle do monocultivo, "Idamage" é o dano foliar por insetos (% da área foliar total) na parcela central de controle do monocultivo.
 
-- CHON: *Chondracanthus spp.*
-
-- CORA: *Corallina spp.*
-
-- LAUR: *Laurencia spp.*
-
-Número de colunas: 5, Número de Linhas: 61
-
-A biomassa do sub-bosque (com aproximação de 0,01 g) foi registrada usando uma balança digital e posteriormente dividida em biomassa branqueada (coluna GENERA_b) e não branqueada (coluna GENERA_ub). A coluna GENERA_f representa a biomassa total (branqueada + não branqueada) para os respectivos gêneros. As colunas marcadas com +1 tiveram seus respectivos valores aumentados por uma variável dummy de Bray-Curtis igual a 1. A coluna GENERA_delt indica a diferença entre a biomassa final não branqueada e a biomassa inicial. A coluna GENERA_%loss representa a proporção de GENERA_delt em relação à biomassa inicial (GENERA_i). A coluna GENERA_%f é calculada como 1 - GENERA_%loss e representa a proporção da biomassa restante em relação à biomassa inicial.
-
-O conjunto de dados completo pode ser acessado [aqui](https://doi.org/10.5061/dryad.05qfttf8b).
+O conjunto de dados completo pode ser acessado [aqui](https://doi.org/10.5061/dryad.3r2280gjp).
 
 ______
 
