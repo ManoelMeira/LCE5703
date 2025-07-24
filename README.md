@@ -28,13 +28,13 @@ O conjunto de dados completo pode ser acessado [aqui](https://doi.org/10.25338/B
 
 ______
 
-**sp_responses.csv**
+**overyielding.csv**
 
-Número de colunas: 11, Número de Linhas: 30
+-Número de colunas: 7, Número de Linhas: 76
 
-Bases de dados sobre efeitos da diversidade nas respostas de crescimento em nível de espécie à aplicações fungicidas e inceticidas.
+O conjunto de dados refere-se à superprodução (overyielding) do crescimento de povoamentos florestais mistos entre os anos de 2014 e 2016
 
-"site" é o sítio experimental (A ou B), "sp" é a espécie arbórea, taxa de variação do crescimento da área basal (2014–2016) em relação a log₂(riqueza de espécies), nas subparcelas: de controle (slopeC.BA), tratadas com fungicida (slopeF.BA), tratadas com inseticida (slopeI.BA). "slopeFC.BA" é a diferença entre slopeF.BA e slopeC.BA. "slopeIC.BA" é a diferença entre slopeI.BA e slopeC.BA. "effmono.F.deltaBA" é o efeito da aplicação de fungicida no crescimento da área basal em monocultivo, "effmono.I.deltaBA" é efeito da aplicação de inseticida no crescimento da área basal em monocultivo, "Fdamage" é o dano foliar por fungos (% da área foliar total) na parcela central de controle do monocultivo, "Idamage" é o dano foliar por insetos (% da área foliar total) na parcela central de controle do monocultivo.
+As informações foram coletadas em dois locais experimentais distintos (identificados como A e B), contendo parcelas com diferentes níveis de riqueza de espécies arbóreas (2, 4 ou 8 espécies). Os tratamentos aplicados nas parcelas incluem uma área central de controle dentro da parcela (centralC), além de controle sem aplicação (C), aplicação de fungicida (F) e aplicação de inseticida (I). O contraste FvsCI representa a comparação entre o tratamento com fungicida e os demais tratamentos. A variável comm descreve a composição da comunidade arbórea de cada parcela, utilizando códigos abreviados para as espécies presentes. Esses códigos representam nomes científicos de espécies florestais como *Ailanthus altissima* (AiAl), *Betula luminifera* (BeLu), *Castanea henryi* (CaHe), entre outras. A lista completa inclui espécies pertencentes a diversos gêneros florestais, totalizando mais de 30 espécies. As principais variáveis-resposta são OY.deltaBA e OY.deltaV, que representam, respectivamente, a superprodução da área basal (em m² por hectare por ano) e a superprodução de volume do povoamento (em m³ por hectare por ano).
 
 O conjunto de dados completo pode ser acessado [aqui](https://doi.org/10.5061/dryad.3r2280gjp).
 
